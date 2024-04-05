@@ -3,7 +3,7 @@ import 'izitoast/dist/css/iziToast.min.css';
 import axios from 'axios';
 
 export async function searchImages(userValue, currentPage) {
-  const API_KEY = api;
+  const API_KEY = '43045712-2af2c0632fda7941642b98154';
   const BASE_URL = 'https://pixabay.com';
   const END_POINT = '/api/';
   const url = `${BASE_URL}${END_POINT}`;
